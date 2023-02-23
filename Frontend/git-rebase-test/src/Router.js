@@ -7,8 +7,13 @@ export default function Router() {
   return (
     <BrowserRouter>
       <Routes>
+<<<<<<< HEAD
         <Route path='/login' element={<Login />} />
         <Route path='/main' element={<Main />} />
+=======
+        <Route path='/' element={<Main />} />
+        <Route path='/signin' element={<Login />} />
+>>>>>>> 040785a (Add: login 페이지 레이아웃 완료)
       </Routes>
     </BrowserRouter>
   );
